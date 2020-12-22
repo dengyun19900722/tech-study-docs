@@ -1,1 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2020-12-22T01:01:20.015Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="13.6.5" etag="61VCBGIfiZ3vo_tlTsLQ" type="github"><diagram id="tYa-KBjd9pUY_rRszQMM">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-22T01:11:09.297Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="urSw-aEUDwAwzAGcSku4" version="13.6.5" type="github">
+  <diagram id="tYa-KBjd9pUY_rRszQMM" name="1、发布 - 升级流程">
+    <mxGraphModel dx="782" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FAs5nS3Ajzcki5OZgWMB-1" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FAs5nS3Ajzcki5OZgWMB-2" value="准备升级包" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="119" y="175" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FAs5nS3Ajzcki5OZgWMB-3" value="验证升级包" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="280" y="175" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FAs5nS3Ajzcki5OZgWMB-4" value="发包" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="440" y="175" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FAs5nS3Ajzcki5OZgWMB-5" value="实施" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="600" y="175" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FAs5nS3Ajzcki5OZgWMB-6" value="升级失败" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="510" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FAs5nS3Ajzcki5OZgWMB-7" value="升级功能验证" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="919" y="175" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FAs5nS3Ajzcki5OZgWMB-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="FAs5nS3Ajzcki5OZgWMB-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="796" y="205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FAs5nS3Ajzcki5OZgWMB-11" value="升级成功？" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="795" y="165" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FAs5nS3Ajzcki5OZgWMB-12" value="验证通过？" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="165" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FAs5nS3Ajzcki5OZgWMB-13" value="升级完成" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="175" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
