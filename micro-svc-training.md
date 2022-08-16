@@ -138,6 +138,8 @@ http://r12f.com/posts/reading-time-building-microservices/
 
 #### 2.1 Docker
 
+https://yeasy.gitbooks.io/docker_practice/content/
+
 ##### 2.1.1 应用层面
 
 1. ###### 3个概念：镜像、容器、仓库
@@ -202,6 +204,28 @@ http://r12f.com/posts/reading-time-building-microservices/
 （2）pod创建流程    
 
 ![preview](https://pic2.zhimg.com/v2-526ad710d1f47a559137acd8bcf1f859_r.jpg)
+
+
+
+（4）https://juejin.im/post/5daf8b536fb9a04ddc625867（自定义scheduler 优选策略）
+
+（5）kubernetes简介（https://kubernetes.feisky.xyz/）
+
+​		kubernetes是谷歌开源的容器集群管理系统，主要功能包括:
+
+（1）基于容器的应用部署、运维和滚动升级；
+
+（2）负载均衡和服务发现；
+
+（3）跨机器和跨地区的集群调度；
+
+（4）自动伸缩；
+
+（5）无状态服务和有状态服务；
+
+（6）插件机制保证扩展性；
+
+由于开源的热度持续提升，k8s已经成为容器编排领域的领导者。
 
 ### 4. 云原生（一切皆为云资源）
 

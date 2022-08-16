@@ -39,3 +39,31 @@
 #### 2.2 git workflow
 
 #### 2.3 git code review
+
+#### 2.4 git 分支管理
+
+##### 2.4.1 分支策略1：feature branch
+
+**1、git flow**
+
+（1）
+
+> 主分支
+>
+> 1. master
+> 2. develop
+>
+> 辅助分支
+>
+> 1. 功能分支 - feature
+> 2. 发布分支 - release
+> 3. 热修复分支 - hotfix
+
+（2）优缺点
+
+> - 
+
+**2、微软**
+
+##### 2.4.2 分支策略2：
+

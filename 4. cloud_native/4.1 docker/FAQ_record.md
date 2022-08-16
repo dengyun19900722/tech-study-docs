@@ -12,6 +12,13 @@
 
 ​	docker - ce（https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04）
 
+```shell
+# 官方脚本安装最新docker-ce版本
+curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
+```
+
+
+
 ### 3. docker批量下载镜像脚本
 
 ```shell
@@ -34,11 +41,22 @@ https://cloud.tencent.com/developer/article/1151425
 
 https://github.com/goharbor/harbor/issues/2634
 
+```
+sudo apt-get install -y ./XXX.deb
+```
 
+![image-20200404101650426](C:\Users\dengy\AppData\Roaming\Typora\typora-user-images\image-20200404101650426.png)
+
+
+
+
+
+![image-20200404101905264](C:\Users\dengy\AppData\Roaming\Typora\typora-user-images\image-20200404101905264.png)
 
 
 
 ```
-sudo apt-get install -y ./XXX.deb
+cd /usr/local/compose
+./install.sh --with-chartmuseum
 ```
 
